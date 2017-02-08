@@ -1,0 +1,1 @@
+var stringA="abcd";console.log(stringA);var stringB="zxcv";console.log(stringB);
