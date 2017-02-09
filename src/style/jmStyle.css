@@ -274,6 +274,18 @@ a ,button, input, textarea {
 	background-image: url(../images/icon01.png);
 	background-position: -30px -120px;
 }
+.glyphicon-success {
+	width: 22px;
+	height: 22px;
+	background-image: url(../images/icon01.png);
+	background-position: -60px -90px;
+}
+.glyphicon-success-lg {
+	width: 47px;
+	height: 47px;
+	background-image: url(../images/icon01.png);
+	background-position: -90px -60px;
+}
 .glyphicon-tel {
 	width: 13px;
 	height: 18px;

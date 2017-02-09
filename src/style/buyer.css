@@ -191,3 +191,54 @@
 	vertical-align: middle;
 }
 /* login-hd end */
+
+/* ------------------------------------------------------------------ */
+/* login-bt start */
+.login-bt {
+	text-align: center;
+	padding-top: 28px;
+}
+.login-bt-link {
+	font-size: 14px;
+}
+.login-bt-link a {
+	color: #858585;
+}
+.login-bt-link span {
+	color: #d9d9d9;
+	margin: 0 12px;
+}
+.login-bt-copy {
+	margin-top: 12px;
+	color: #ccc;
+}
+/* login-bt end */
+
+/* ------------------------------------------------------------------ */
+/* reg-success start */
+.reg-success {
+	text-align: center;
+	padding-top: 58px;
+	min-height: 362px;
+}
+.reg-suc-tip {
+	color: #333;
+	font-size: 16px;
+	margin-top: 12px;
+}
+.reg-suc-tip1 {
+	font-size: 14px;
+	margin-top: 20px;
+}
+.reg-suc-tip1 span {
+	color: #999;
+}
+.reg-suc-tip1 span.time,
+.reg-suc-tip1 a {
+	color: #1aa6c3;
+}
+.reg-suc-tip1 a {
+	text-decoration: underline;
+	margin-left: 4px;
+}
+/* reg-success end */
