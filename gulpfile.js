@@ -6,7 +6,7 @@ var gulp = require('gulp');
 var cssnano = require('gulp-cssnano');
 gulp.task('style', function() {
 	gulp.src('src/style/*.css')
-		.pipe(cssnano())
+		//.pipe(cssnano())
 		.pipe(gulp.dest('dist/style'))
 		.pipe(browserSync.reload({
 			stream: true
