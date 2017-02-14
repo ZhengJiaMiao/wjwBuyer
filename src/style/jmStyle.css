@@ -268,6 +268,12 @@ a ,button, input, textarea {
 	background-image: url(../images/icon01.png);
 	background-position: -30px -60px;
 }
+.glyphicon-close {
+	width: 15px;
+	height: 15px;
+	background-image: url(../images/icon01.png);
+	background-position: -30px -240px;
+}
 .glyphicon-ok {
 	width: 16px;
 	height: 16px;
@@ -364,4 +370,22 @@ a ,button, input, textarea {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.layer-mask {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #fff;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.layer-box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border: 1px solid #dfdfdf;
+	box-shadow: 0px 2px 5px #e0e0e0;
+	background: #fff;
 }
