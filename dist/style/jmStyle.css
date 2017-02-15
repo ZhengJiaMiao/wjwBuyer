@@ -256,6 +256,15 @@ a ,button, input, textarea {
 	background-image: url(../images/icon01.png);
 	background-position: 0 -90px;
 }
+.glyphicon-perCen01 {
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/icon01.png);
+	background-position: 0 0;
+}
+.glyphicon-perCen01.cur {
+	background-position: 0 -30px;
+}
 .glyphicon-qrCode {
 	width: 114px;
 	height: 114px;
@@ -304,7 +313,7 @@ a ,button, input, textarea {
 	background-image: url(../images/icon01.png);
 	background-position: -30px 0;
 }
-.glyphicon-tel:hover,
+/*.glyphicon-tel:hover,*/
 .glyphicon-tel.cur {
 	background-position: -30px -30px;
 }
@@ -365,6 +374,12 @@ a ,button, input, textarea {
 .caret01 {
 	border-bottom: 4px dashed;
     border-bottom: 4px solid\9;
+}
+.caret-lg {
+	border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-top: 6px dashed;
+    border-top: 6px solid\9;
 }
 .text-overflow {
   overflow: hidden;
