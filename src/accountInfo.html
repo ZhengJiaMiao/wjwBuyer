@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="style/jmStyle.css" />
+		<link rel="stylesheet" href="style/wjcBackstage.css" />
+		<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+	</head>
+	<body>
+		<!-- 网站最顶部 start -->
+		<div class="m-site-topbar">
+			<div class="wjc-container clearfix">
+				<a href="wujincai.html" class="l tohome">五金采首页</a>
+				<p class="r kefu">
+					<span>客服热线：0571-88998899</span>
+					<a href="">客服中心</a>
+				</p>
+			</div>
+		</div>
+		<!-- 网站最顶部 end -->
+		
+		<!-- 网站头部 start -->
+		<div class="m-site-hd">
+			<div class="wjc-container clearfix">
+				<div class="l logo">
+					<a href="memberCenter.html" class="logo-bg"></a><i class="logo-line">|</i><span class="logo-txt">会员中心</span>
+				</div>
+				<div class="r site-hd-nav">
+					<p class="l"><i class="i-perCen"></i><span>您的专属交易员:</span><span>交易员002</span></p>
+					<p class="l"><i class="i-gonghao"></i><span>工号：</span><span>wjc1001</span></p>
+					<p class="l"><i class="i-tel"></i><span>0571-88938913</span></p>
+				</div>
+			</div>
+		</div>
+		<!-- 网站头部 end -->
+		
+		<!-- 网站主体内容 start -->
+		<div class="m-site-main">
+			<div class="wjc-container clearfix">
+				<!-- 网站左侧菜单 start -->
+				<div class="m-site-aside l">
+					<dl>
+						<dt><i class="i-cgd"></i><span>我的采购单</span><i class="i-arrow"></i></dt>
+						<dd><a href="">发布采购单</a></dd>
+						<dd><a href="">我的采购单</a></dd>
+					</dl>
+					<dl>
+						<dt><i class="i-bjd"></i><span>我的报价单</span><i class="i-arrow"></i></dt>
+						<dd><a href="">批量上传报价单</a></dd>
+						<dd><a href="">单个发布报价单</a></dd>
+						<dd><a href="">我的报价单</a></dd>
+					</dl>
+					<dl>
+						<dt><i class="i-jyxx"></i><span>交易信息</span><i class="i-arrow"></i></dt>
+						<dd><a href="">已成交的采购</a></dd>
+						<dd><a href="">已成交的供应</a></dd>
+					</dl>
+					<dl>
+						<dt><i class="i-zhgl"></i><span>账号管理</span><i class="i-arrow"></i></dt>
+						<dd class="cur"><a href="">账号信息</a></dd>
+						<dd><a href="">修改密码</a></dd>
+						<dd><a href="">我的积分</a></dd>
+					</dl>
+				</div>
+				<!-- 网站左侧菜单 end -->
+				
+				<!-- 网站右侧内容 start -->
+				<div class="m-site-block l">
+					<!-- 账号信息 start -->
+					<div class="m-b m-account">
+						<i class="i-page"></i>
+						<div class="rec-hd clearfix">
+							<p class="l rec-hd-name">账号信息</p>
+							<p class="r rec-hd-tip"><span>*</span>表示该项必填</p>
+						</div>
+						<div class="acc-box">
+							<form class="form-inline">
+								<div class="form-group clearfix">
+									<label class="form-label l"><span class="label-tip">*</span>用户名：</label>
+									<div class="l acc-r">
+										<input type="text" class="form-input" />
+										<span class="input-tip"><i class="glyphicon glyphicon-tip"></i><span>6-16位字符 可数字、字母、中文！</span></span>
+									</div>
+								</div>
+								<div class="form-group clearfix">
+									<label class="form-label h16l16 l"><span class="label-tip">*</span>登录手机：</label><span class="acc-tel l">13616505254</span>
+								</div>
+								<div class="form-group upImg clearfix">
+									<label class="form-label l">您当前的头像：</label>
+									<div class="l acc-r">
+										<div class="acc-file l">
+											<img src="images/sctx.png" />
+											<input type="file" id= "upfile_tx" />
+										</div>
+										<!--href="javascript:upfile('upfile_tx')"-->
+										<div class="l upImg-r">
+											<p><a id= "upfile_tx_a">上传图像</a></p>
+											<span class="input-tip l">上传图片要求：请使用真实头像，展示风格支持JPG, JPEG, PNG风格，支持2M以内的图片。</span>
+										</div>
+									</div>
+								</div>
+								<div class="form-group clearfix">
+									<label class="form-label h16l16 l"><span class="label-tip">*</span>会员身份：</label>
+									<div class="l acc-r">
+										<div class="l acc-r-check">
+											<div class="form-checkbox l">
+												<input type="checkbox" />
+											</div>
+											<label>企业单位</label>
+										</div>
+										<div class="l acc-r-check">
+											<div class="form-checkbox l">
+												<input type="checkbox" />
+											</div>
+											<label>个体工商户</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group clearfix">
+									<label class="form-label l"><span class="label-tip">*</span>公司名称：</label>
+									<div class="l acc-r">
+										<input type="text" class="form-input" />
+									</div>
+								</div>
+								<div class="form-group clearfix">
+									<label class="form-label l"><span class="label-tip">*</span>主营行业：</label>
+									<div class="l acc-r">
+										<div class="form-select">
+											<p class="form-select-cur"><span>机械设备</span><span class="caret"></span></p>
+											<ul class="form-select-ul">
+												<li>机械设备1</li>
+												<li>机械设备2</li>
+												<li>机械设备3</li>
+												<li>机械设备4</li>
+												<li>机械设备5</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="form-group form-zycp clearfix">
+									<label class="form-label l"><span class="label-tip">*</span>主营产品：</label>
+									<div class="l acc-r">
+										<p class="acc-r-tip">采购产品和销售产品必填一项</p>
+										<div class="acc-r-row">
+											<span class="zycp">采购</span><input type="text" class="form-input" />
+										</div>
+										<div class="acc-r-row">
+											<span class="zycp">供应</span><input type="text" class="form-input" />
+										</div>
+									</div>
+								</div>
+								<div class="form-group clearfix">
+									<label class="form-label l">业务联系邮箱：</label>
+									<div class="l acc-r">
+										<input type="text" class="form-input" />
+									</div>
+								</div>
+								<div class="form-group clearfix">
+									<label class="form-label l">QQ：</label>
+									<div class="l acc-r">
+										<input type="text" class="form-input" />
+									</div>
+								</div>
+								<div class="form-group clearfix">
+									<label class="form-label l"><span class="label-tip">*</span>业务联系手机：</label>
+									<div class="l acc-r">
+										<input type="text" class="form-input" />
+									</div>
+								</div>
+								<div class="form-group form-tel clearfix">
+									<label class="form-label l">固定电话：</label>
+									<div class="l acc-r">
+										<input type="text" class="form-input tel-country" placeholder="86" /><span class="i-connector">-</span><input type="text" class="form-input tel-areaCode" placeholder="区号" /><span class="i-connector">-</span><input type="text" class="form-input tel-num" placeholder="号码" />
+									</div>
+								</div>
+								<div class="form-group form-tel clearfix">
+									<label class="form-label l">传真：</label>
+									<div class="l acc-r">
+										<input type="text" class="form-input tel-country" placeholder="86" /><span class="i-connector">-</span><input type="text" class="form-input tel-areaCode" placeholder="区号" /><span class="i-connector">-</span><input type="text" class="form-input tel-num" placeholder="号码" />
+									</div>
+								</div>
+								<div class="form-group clearfix">
+									<label class="form-label l">联系地址：</label>
+									<div class="l acc-r">
+										<div class="acc-r-select clearfix">
+											<div class="form-select l">
+												<p class="form-select-cur"><span>浙江</span><span class="caret"></span></p>
+												<ul class="form-select-ul">
+													<li>机械设备1</li>
+													<li>机械设备2</li>
+													<li>机械设备3</li>
+													<li>机械设备4</li>
+													<li>机械设备5</li>
+												</ul>
+											</div>
+											<div class="form-select l">
+												<p class="form-select-cur"><span>市</span><span class="caret"></span></p>
+												<ul class="form-select-ul">
+													<li>机械设备1</li>
+													<li>机械设备2</li>
+													<li>机械设备3</li>
+													<li>机械设备4</li>
+													<li>机械设备5</li>
+												</ul>
+											</div>
+											<div class="form-select l">
+												<p class="form-select-cur"><span>区</span><span class="caret"></span></p>
+												<ul class="form-select-ul">
+													<li>机械设备1</li>
+													<li>机械设备2</li>
+													<li>机械设备3</li>
+													<li>机械设备4</li>
+													<li>机械设备5</li>
+												</ul>
+											</div>
+										</div>
+										<div class="acc-r-street">
+											<input type="text" class="form-input" placeholder="街道门牌号 大厦名称" />
+										</div>
+									</div>
+								</div>
+								<div class="form-group clearfix">
+									<label class="form-label l">&nbsp;</label>
+									<div class="l acc-r">
+										<button type="button" class="btn save">保存</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<!-- 账号信息 end -->
+				</div>
+				<!-- 网站右侧内容 end -->
+			</div>
+		</div>
+		<!-- 网站主体内容 end -->
+		
+		<!-- 网站底部 start -->
+		<div class="m-site-ft">
+			<div class="wjc-container">
+				<p><span>五金采(2016) 版权所有 本站网络实名：全球五金网 浙B2-20100360</span><span class="site-ft-s"><i class="icon-gongan"></i>浙公网安备 33010502000502号</span></p>
+			</div>
+		</div>
+		<!-- 网站底部 end -->
+		<script>
+			$(function() {
+				function upfile(id) {
+					$("#"+id).trigger("click");
+				}
+				$("#upfile_tx_a").click(function() {
+					upfile("upfile_tx");
+				})
+			});
+		</script>
+	</body>
+</html>

@@ -159,6 +159,11 @@ a ,button, input, textarea {
 	box-sizing: border-box;
 	width: 100%;
 }
+.form-inline .form-input {
+	display: inline-block;
+	width: auto;
+	vertical-align: middle;
+}
 .input-lg {
 	font-size: 14px;
 	line-height: 43px;
@@ -176,15 +181,25 @@ a ,button, input, textarea {
 	color: #666;
 	margin-top: 10px;
 }
+.input-tip span {
+	vertical-align: middle;
+	margin-left: 8px;
+}
 .form-checkbox {
 	width: 14px;
 	height: 14px;
 	border-radius: 2px;
-	background: url(../images/icon01.png) no-repeat -60px 0;
 	cursor: pointer;
 	vertical-align: middle;
 	display: inline-block;
 	line-height: 0;
+	box-sizing: border-box;
+	border: 1px solid #d7ddde;
+	background: #f2f2f2;
+}
+.form-checkbox.cur {
+	background: url(../images/icon01.png) no-repeat -60px 0;
+	border: none;
 }
 .form-checkbox input[type= "checkbox"] {
 	opacity: 0;
